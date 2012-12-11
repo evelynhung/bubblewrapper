@@ -6,6 +6,7 @@
     "name": "The Gaia Team",
     "url": "https://evelynhung.github.com/"
   },
+  "orientation": "portrait-primary",
   "locales": {
     "en-US": {
       "name": "Bubble wrapper",
