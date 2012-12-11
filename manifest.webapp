@@ -1,18 +1,18 @@
 {
   "name": "Bubble Wrapper",
   "description": "Bubble Wrapper Game",
-  "launch_path": "/index.html",
+  "launch_path": "/bubblewrapper/",
   "developer": {
     "name": "The Gaia Team",
-    "url": "https://github.com/mozilla-b2g/gaia"
+    "url": "https://evelynhung.github.com/"
   },
   "locales": {
     "en-US": {
-      "name": "Template",
+      "name": "Bubble wrapper",
       "description": "Web app template"
     },
     "zh-TW": {
-      "name": "Template",
+      "name": "Bubble wrapper",
       "description": "Web app template"
     }
   },
