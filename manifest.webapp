@@ -1,7 +1,8 @@
 {
+  "version": "1.0",
   "name": "Bubble Wrapper",
   "description": "Bubble Wrapper Game",
-  "launch_path": "/bubblewrapper/",
+  "launch_path": "/bubblewrapper/index.html",
   "developer": {
     "name": "Evelyn Hung",
     "url": "https://evelynhung.github.com/"
@@ -19,6 +20,7 @@
   },
   "default_locale": "en-US",
   "icons": {
-    "128": "/style/icons/bubble.png"
+    "60": "/bubblewrapper/style/icons/icon_bubble_60.png",
+    "128": "/bubblewrapper/style/icons/icon_bubble_128.png"
   }
 }
