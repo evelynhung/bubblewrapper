@@ -3,18 +3,18 @@
   "description": "Bubble Wrapper Game",
   "launch_path": "/bubblewrapper/",
   "developer": {
-    "name": "The Gaia Team",
+    "name": "Evelyn Hung",
     "url": "https://evelynhung.github.com/"
   },
   "orientation": "portrait-primary",
   "locales": {
     "en-US": {
-      "name": "Bubble wrapper",
-      "description": "Web app template"
+      "name": "Bubble Wrapper",
+      "description": "A simple time consuming game"
     },
     "zh-TW": {
-      "name": "Bubble wrapper",
-      "description": "Web app template"
+      "name": "泡泡紙",
+      "description": "一個簡單的戳泡泡紙遊戲"
     }
   },
   "default_locale": "en-US",
