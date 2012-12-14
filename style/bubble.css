@@ -5,48 +5,6 @@ html, body {
   overflow-y: auto;
   background: #b4cbcb url('icons/groovepaper.png') repeat;
 }
-#panel {
-  overflow-x: hidden;
-  overflow-y: auto;
-  position: absolute;
-  top: 60px;
-  margin-left: 10px;
-}
-.bubble {
-  background: transparent url('icons/bubble.png') no-repeat;
-  background-size: 50px 50px;
-}
-.bubble-broken-0 {
-  background: transparent url('icons/bubble_broken_1.png') no-repeat;
-  background-size: 50px 50px;
-}
-.bubble-broken-1 {
-  background: transparent url('icons/bubble_broken_2.png') no-repeat;
-  background-size: 50px 50px;
-}
-.bubble-broken-2 {
-  background: transparent url('icons/bubble_broken_3.png') no-repeat;
-  background-size: 50px 50px;
-}
-.bubble-broken-3 {
-  background: transparent url('icons/bubble_broken_4.png') no-repeat;
-  background-size: 50px 50px;
-}
-.bubble-broken-4 {
-  background: transparent url('icons/bubble_broken_5.png') no-repeat;
-  background-size: 50px 50px;
-}
-.row {
-}
-.col {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  margin-right: 5px;
-}
-.shift {
-  margin-left: 25px;
-}
 
 #info_container {
   position: fixed;
@@ -134,3 +92,35 @@ button {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
 }
+
+#panel {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top: 60px;
+  margin-left: 10px;
+}
+
+.row {
+  /* empty style */
+}
+
+.col {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  background: url(icons/sprite-bubble.png) no-repeat top left;
+}
+
+.bubble { background-position: 0 0; width: 50px; height: 50px; } 
+.bubble-broken-0 { background-position: 0 -55px; width: 50px; height: 50px; } 
+.bubble-broken-1 { background-position: 0 -110px; width: 50px; height: 50px; } 
+.bubble-broken-2 { background-position: 0 -165px; width: 50px; height: 50px; } 
+.bubble-broken-3 { background-position: 0 -220px; width: 50px; height: 50px; } 
+.bubble-broken-4 { background-position: 0 -275px; width: 50px; height: 50px; } 
+
+.shift {
+  margin-left: 25px;
+}
+

@@ -37,7 +37,7 @@ var BubbleWrapper = {
 
   initBubbles: function() {
     this.ROW = Math.floor(window.innerHeight / (this.SIZE + this.SEAM)) - 1;
-    this.COL = Math.floor(window.innerWidth / (this.SIZE + this.SEAM));
+    this.COL = Math.floor((window.innerWidth - 40) / (this.SIZE + this.SEAM));
     for(var i=0; i<this.ROW; ++i) {
       this.makeOneRow(i);
     }
